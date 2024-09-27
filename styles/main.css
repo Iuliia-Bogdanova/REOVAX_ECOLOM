@@ -1,0 +1,40 @@
+@import url(./vars.css);
+@import url(./normalize.css);
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url('../assets/fonts/OpenSans-Regular.woff2') format('woff2');
+    font-weight: var(--font-weight-regular);
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url('../assets/fonts/OpenSans-SemiBold.woff2') format('woff2');
+    font-weight: var(--font-weight-semibold);
+}
+
+*, 
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    /* cursor: default; */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: var(--font-weight-regular);
+    background-color: #fff;
+    color: var(--black-color);
+}
+
+a:hover, 
+button:hover {
+    cursor: url('../assets/icons/cursor.svg') 12 12, auto;
+}
