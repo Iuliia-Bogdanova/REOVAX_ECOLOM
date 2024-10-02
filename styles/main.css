@@ -257,6 +257,14 @@ h1.heading {
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 52px;
+    box-sizing: border-box;
+    transition: border 0.3s ease, border-radius 0.3s ease;
+}
+
+.initial__video:hover {
+    opacity: 1;
+    border: 1px solid var(--green-color);
+    border-radius: 100%;
 }
 
 .advantages {
