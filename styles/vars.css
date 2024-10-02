@@ -6,4 +6,5 @@
     --green-color: #105720;
     --background-color: #fff;
     --main-background: #f3f7f4;
+    --custom-cursor: url('../assets/icons/cursor.svg') 12 12, auto;
 }
